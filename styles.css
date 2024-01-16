@@ -10,6 +10,7 @@
 #header-menu{
     background-color: black;
     width: 100vw;
+    padding-top: 4px;
 }
 main{
     background-color: black;
