@@ -11,13 +11,15 @@
     background-color: black;
     width: 100vw;
     padding-top: 4px;
+    /* position: sticky;
+    top: 0px; */
 }
 main{
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 #secao-navegacao{
     width: 100%;
@@ -203,4 +205,25 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#section-atleta-destaque{
+    position: relative;
+}
+#div-nome-e-titulo-atleta-destaque{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nome-atleta-destaque{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.titulo-atleta-destaque{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
 }
