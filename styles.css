@@ -176,7 +176,7 @@ main{
     text-align: center;
 }
 .nome-atleta-destaque{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     margin-top: 7px;
 }
@@ -255,4 +255,17 @@ footer{
 }
 #botao-carregar-mais{
     margin-top: 90px;
+}
+#destaques{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imagem-atleta-destaques{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.nome-atleta-destaque{
+    font-size: 22px;
 }
