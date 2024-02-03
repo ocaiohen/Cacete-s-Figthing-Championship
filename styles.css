@@ -147,7 +147,8 @@ main{
 .div-titulo-e-ler-mais{
     position: absolute;
     bottom: 40px;
-    width: 90%;
+    width: 80%;
+    background-color: rgba(0,0,0,0.5);
 }
 .titulo-materia-em-alta{
     font-size: 24px;
@@ -234,11 +235,13 @@ footer{
     font-weight: 700;
     text-align: center;
 }
-.linha-atletas{
+#section-todos-os-atletas{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 49px;
 }
 .div-atleta{
     display: flex;
@@ -268,4 +271,18 @@ footer{
 }
 .nome-atleta-destaque{
     font-size: 22px;
+}
+#noticias-do-momento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-noticias{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.caixa-texto-noticia{
+    background-color: rgb(217, 217, 217);
 }
