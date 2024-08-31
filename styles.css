@@ -19,13 +19,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    width: 100vw;
 }
 #secao-navegacao{
     width: 100%;
+    max-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    list-style-type: none;
 }
 .ancora-nav{
     text-decoration: none;
@@ -100,6 +102,9 @@ main{
     align-items: center;
     margin-top: 48px;
 }
+#div-botoes-evento-destaque a:nth-last-child(2){
+    margin-bottom: 14px;
+}
 .botao-evento{
     display: flex;
     align-items: center;
@@ -120,9 +125,6 @@ main{
 }
 .botao-evento:active{
     opacity: 0.8;
-}
-.nao-ultimo-botao{
-    margin-bottom: 14px;
 }
 #em-alta{
     width: 1050px;

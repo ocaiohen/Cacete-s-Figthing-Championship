@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+body{
+    margin:0;
+}
+img {
+    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+ul{
+    list-style-type: none;
+}
+#header-menu{
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: sticky;
+    top: 0px; */
+}
+a{
+    text-decoration: none;
+}
+/* #container-logo{
+   
+} */
+nav{
+    width: 100%;
+}
+#secao-navegacao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#links-header{
+    font-size: 1em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#logo-a{
+    font-size: 1.375em;
+    font-weight: 700;
+    text-align: center;
+}
+#barra-de-pesquisa{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    padding: 5px;
+}
+#input-barra-de-pesquisa{
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+#div-lupa{
+    margin-right: 10px;
+}
+#botao-lupa{
+    width: 36px;
+    height: 32px;
+    background: none;
+    background-image: url('./Assets/Lupa.png');
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#imagem-evento-destaque{
+    width: 100vw;
+    height: 684px;
+    object-fit: cover;
+}

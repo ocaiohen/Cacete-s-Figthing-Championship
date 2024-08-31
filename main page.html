@@ -3,97 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="./styles.css">
+    <link rel = "stylesheet" href="./principal.css">
     <title>O MAIOR EVENTO DE ESPORTES DE COMBATE DO BRASIL</title>
 </head>
 <body>
     <header id = "header-menu">
         <nav>
-            <span id = "secao-navegacao">
-                <div id = "links-header">
+            <ul id = "secao-navegacao">
+                <li id = "links-header">
                     <a href="./eventos.html" target = "_self" class = "ancora-nav">Eventos</a>
                     <a href="./rankings.html" target = "_self" class = "ancora-nav">Ranking</a>
                     <a href="./atletas.html" target = "_self" class = "ancora-nav">Atletas</a>
                     <a href="./noticias.html" target = "_self" class = "ancora-nav">Notícias</a>
-                </div>
+                </li>
                 
-                <a href="./main page.html" target="_self"><img src="./Assets/Logo.png" alt="logo-cfc" id = "logo-cfc"></a>
+                <!-- <li id = "container-logo"><a href="./main page.html" target="_self"><img src="./Assets/Logo.png" alt="logo-cfc" id = "logo-cfc"></a></li> -->
+                <li id = "container-logo"><a href="./main page.html" target="_self" id = "logo-a" ><h1>Cacete's Figthing <br>Championship</h1></a></li>
 
-                <div id = "barra-de-pesquisa">
+                <li id = "barra-de-pesquisa">
                     <input type="text" placeholder="Search..." id = "input-barra-de-pesquisa">
                     <div id = "div-lupa">
                         <button id="botao-lupa"></button>
-                        <!-- <img src="./Assets/Lupa.png" alt="imagem-lupa" id = "imagem-lupa"> -->
                     </div>
-                </div>
-            </span>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
         <section id = "evento-destaque">
-            <img id = "imagem-evento-destaque" src="./Assets/Main Page/Imagem evento destaque.jpg" alt="imagem-evento-destaque">
-            <div id = "informacoes-evento-destaque">
-                <div id = "div-titulo-evento-destaque">
+            <img id = "imagem-evento-destaque" src="./Assets/Main Page/Imagem evento destaque.jpg" alt="imagem do evento de destaque">
+            <div id = "info-evento-destaque">
+                <div id = "container-titulo-evento-destaque">
                     <h2 id = "numero-evento-destaque">CFC 73</h2>
                     <h1 id = "titulo-evento-destaque">ROBERT X JACK</h1>
                     <p id = "subtitulo-evento-destaque">Dois gigantes se enfrentam este sábado dia xx/xx/xxxx!</p>
                 </div>
-                <div id = "div-botoes-evento-destaque">
-                    <a href="#" target = "_blank" class = "botao-evento nao-ultimo-botao">ASSISTA</a>
+                <div id = "botoes-evento-destaque">
+                    <a href="#" target = "_blank" class = "botao-evento">ASSISTA</a>
                     <a href="#" target = "_blank" class = "botao-evento">MAIS INFORMAÇÕES</a>
                 </div>
             </div>
         </section>
 
-        <img class = "linha-de-separacao" src="./Assets/Main Page/Conjunto Texto Em Alta.png" alt="linha-de-separacao-em-alta">
-
         <section id = "em-alta">
-            <div class = "linha-em-alta">
-                <div id = "em-alta1" class = "item-em-alta">
-                    <img src="./Assets/Main Page/Imagem em alta 1.png" alt="imagem-em-alta">
-                    <div class = "div-titulo-e-ler-mais">
-                        <p class = "titulo-materia-em-alta">Conheça Robert “Rocky” Johnson, que lutará neste sábado, 23/12/2023</p>
-                        <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
-                    </div>
-                </div>
-                <div id = "em-alta2" class = "item-em-alta">
-                    <img src="./Assets/Main Page/Imagem em alta 2.png" alt="imagem-em-alta">
-                    <div class = "div-titulo-e-ler-mais">
-                        <p class = "titulo-materia-em-alta">Entrevista pós luta com Cristina Cruz</p>
-                        <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
-                    </div>
+            <h2>EM ALTA</h2>
+            <div id = "em-alta1" class = "item-em-alta">
+                <img src="./Assets/Main Page/Imagem em alta 1.png" alt="imagem-em-alta">
+                <div class = "div-titulo-e-ler-mais">
+                    <p class = "titulo-materia-em-alta">Conheça Robert “Rocky” Johnson, que lutará neste sábado, 23/12/2023</p>
+                    <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
                 </div>
             </div>
-            <div class = "linha-em-alta">
-                <div id = "em-alta3" class = "item-em-alta">
-                    <img src="./Assets/Main Page/Imagem em alta 3.png" alt="imagem-em-alta">
-                    <div class = "div-titulo-e-ler-mais">
-                        <p class = "titulo-materia-em-alta">O CINTURÃO VEM PRO BRASIL! Cleiton se torna campeão dos leves!</p>
-                        <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
-                    </div>
+            <div id = "em-alta2" class = "item-em-alta">
+                <img src="./Assets/Main Page/Imagem em alta 2.png" alt="imagem-em-alta">
+                <div class = "div-titulo-e-ler-mais">
+                    <p class = "titulo-materia-em-alta">Entrevista pós luta com Cristina Cruz</p>
+                    <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
                 </div>
             </div>
-            <div class = "linha-em-alta">
-                <div id = "em-alta4" class = "item-em-alta">
-                    <img src="./Assets/Main Page/Imagem em alta 4.png" alt="imagem-em-alta">
-                    <div class = "div-titulo-e-ler-mais">
-                        <p class = "titulo-materia-em-alta">Cerimônia de pesagem de Jack “American” Smith</p>
-                        <a href="#" target="_blank"class = "ler-mais">Ler Mais</a>
-                    </div>
+            <div id = "em-alta3" class = "item-em-alta">
+                <img src="./Assets/Main Page/Imagem em alta 3.png" alt="imagem-em-alta">
+                <div class = "div-titulo-e-ler-mais">
+                    <p class = "titulo-materia-em-alta">O CINTURÃO VEM PRO BRASIL! Cleiton se torna campeão dos leves!</p>
+                    <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
                 </div>
-                <div id = "em-alta5" class = "item-em-alta">
-                    <img src="./Assets/Main Page/Imagem em alta 5.png" alt="imagem-em-alta">
-                    <div class = "div-titulo-e-ler-mais">
-                        <p class = "titulo-materia-em-alta">Entrevista com Patrícia Costa</p>
-                        <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
-                    </div>
+            </div>
+            <div id = "em-alta4" class = "item-em-alta">
+                <img src="./Assets/Main Page/Imagem em alta 4.png" alt="imagem-em-alta">
+                <div class = "div-titulo-e-ler-mais">
+                    <p class = "titulo-materia-em-alta">Cerimônia de pesagem de Jack “American” Smith</p>
+                    <a href="#" target="_blank"class = "ler-mais">Ler Mais</a>
+                </div>
+            </div>
+            <div id = "em-alta5" class = "item-em-alta">
+                <img src="./Assets/Main Page/Imagem em alta 5.png" alt="imagem-em-alta">
+                <div class = "div-titulo-e-ler-mais">
+                    <p class = "titulo-materia-em-alta">Entrevista com Patrícia Costa</p>
+                    <a href="#" target="_blank" class = "ler-mais">Ler Mais</a>
                 </div>
             </div>
         </section>
 
-        <img class = "linha-de-separacao" src ="./Assets/Main Page/Conjunto Texto Destaques.png" alt="linha-de-separacao-destaques">
 
         <section id = "destaques">
+            <h2>DESTAQUES</h2>
             <div class = "div-destaque">
                 <img class = "imagem-atleta-destaques" src="./Assets/Main Page/Imagem Destaque 1.png" alt="imagem-atleta-destaque">
                 <label for="destaque1" class = "nome-atleta-destaque">“Super” Arthit Wong</label>
