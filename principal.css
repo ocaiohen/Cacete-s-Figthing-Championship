@@ -120,19 +120,21 @@ main{
     position: absolute;
     bottom: 0px;
     width: 100%;
-    -webkit-text-stroke: 7px black;
-    paint-order: stroke fill;
     text-align: center;
 }
 .titulo-materia-em-alta{
     font-size: 24px;
     font-weight: 700;
+    -webkit-text-stroke: 7px black;
+    paint-order: stroke fill;
 }
 
 .ler-mais{
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
+    -webkit-text-stroke: 7px black;
+    paint-order: stroke fill;
 }
 #em-alta1{grid-area: ea1;}
 #em-alta2{grid-area: ea2;}
