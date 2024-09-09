@@ -3,44 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="./styles.css">
+    <link rel = "stylesheet" href="./atletas.css">
     <title>Atletas | CFC</title>
 </head>
 <body>
     <header id = "header-menu">
         <nav>
-            <span id = "secao-navegacao">
-                <div id = "links-header">
+            <ul id = "secao-navegacao">
+                <li id = "links-header">
                     <a href="./eventos.html" target = "_self" class = "ancora-nav">Eventos</a>
                     <a href="./rankings.html" target = "_self" class = "ancora-nav">Ranking</a>
                     <a href="./atletas.html" target = "_self" class = "ancora-nav">Atletas</a>
                     <a href="./noticias.html" target = "_self" class = "ancora-nav">Notícias</a>
-                </div>
+                </li>
                 
-                <a href="./main page.html" target="_self"><img src="./Assets/Logo.png" alt="logo-cfc" id = "logo-cfc"></a>
+                <!-- <li id = "container-logo"><a href="./main page.html" target="_self"><img src="./Assets/Logo.png" alt="logo-cfc" id = "logo-cfc"></a></li> -->
+                <li id = "container-logo"><a href="./main page.html" target="_self" class = "logo-a" ><h1>Cacete's Figthing <br>Championship</h1></a></li>
 
-                <div id = "barra-de-pesquisa">
+                <li id = "barra-de-pesquisa">
                     <input type="text" placeholder="Search..." id = "input-barra-de-pesquisa">
                     <div id = "div-lupa">
                         <button id="botao-lupa"></button>
-                        <!-- <img src="./Assets/Lupa.png" alt="imagem-lupa" id = "imagem-lupa"> -->
                     </div>
-                </div>
-            </span>
+                </li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section id = "section-atleta-destaque">
+        <div id = "div-atleta-destaque">
             <img src="./Assets/Atletas/Imagem atleta destaque Ermesson.png" alt="imagem-atleta-destaque">
-            <div id = "div-nome-e-titulo-atleta-destaque">
+            <div id = "info-atleta-destaque">
                 <p class = "nome-atleta-destaque">Ermesson “Taludo” da Silva</p>
                 <p class = "titulo-atleta-destaque">-Campeão dos pesos pesados-</p>
             </div>
-        </section>
+        </div>
 
-        <img class = "linha-de-separacao" src="./Assets/Atletas/Linha de separação atletas.png" alt="linha-de-separação-atletas">
+        <div class = "linha-horizontal">
+            <h2 class = "titulo-secao">ATLETAS</h2>
+        </div>
 
-        <section id = "section-todos-os-atletas">
+        </div>
+        <div id = "todos-os-atletas">
             <div class = "div-atleta">
                 <img src="./Assets/Atletas/Atleta 1.png" alt="imagem-atleta">
                 <p class = "nome-atleta">Jonathan Pearson</p>
@@ -137,14 +140,14 @@
                 <p class = "categoria-atleta">Peso-Pesado</p>
                 <p class = "cartel-atleta">39-8-2(V-D-E)</p>
             </div>
-        </section>
+        </div>
 
         <button id = "botao-carregar-mais" class="botao-evento">
             CARREGAR MAIS
         </button>
 
         <footer>
-            <img id = "imagem-logo-footer" src="./Assets/Logo.png" alt="logo-cfc">
+            <a class = "logo-footer" href="./main page.html" target="_self"><h1>Cacete's Figthing <br>Championship</h1></a>
         </footer>
     </main>
     
