@@ -36,15 +36,6 @@ a{
 nav{
     width: 100%;
 }
-#linha-metade{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background-color: blue;
-    width: 4px;
-    height: 100vh;
-    z-index: 50;
-}
 #secao-navegacao{
     width: 100%;
     display: flex;
@@ -91,13 +82,6 @@ nav{
     border: none;
     cursor: pointer;
 }
-main{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
 .linha-horizontal{
     width: 100%;
     position: relative;
@@ -122,6 +106,59 @@ main{
     background: #000; /* Cor de fundo que deve cobrir a linha horizontal */
     padding: 0 10px; /* Espaçamento ao redor do texto */
     z-index: 2;
+}
+#linha-metade{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: blue;
+    width: 4px;
+    height: 100vh;
+    z-index: 50;
+}
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#container-eventos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-evento{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.botao-evento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 75px;
+    background-color: white;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.botao-evento:hover{
+    opacity: 0.95;
+}
+.botao-evento:active{
+    opacity: 0.8;
+}
+.botoes-evento a:nth-last-child(2){
+    margin-bottom: 14px;
 }
 .logo-footer{
     font-size: 1em;
