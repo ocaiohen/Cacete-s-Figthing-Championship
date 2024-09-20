@@ -20,10 +20,11 @@ ul{
 #header-menu{
     background-color: black;
     width: 100%;
+    max-width: 100%;
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     /* position: sticky;
     top: 0px; */
 }
@@ -34,25 +35,29 @@ a{
    
 } */
 nav{
-    width: 100%;
+    width: 20%;
+    max-width: 20%;
 }
-#secao-navegacao{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 #links-header{
-    font-size: 1em;
-    font-weight: 600;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#links-header>li>a{
+    font-size: 100%;
+    font-weight: 600;
+}
+header>h1{
+    text-align: center;
 }
 .logo-a{
-    font-size: 1.375em;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    max-width: 20%;
 }
 
 #barra-de-pesquisa{
@@ -62,6 +67,7 @@ nav{
     border: 5px solid #ffffff;
     border-radius: 20px;
     padding: 5px;
+    background-color: rgb(0, 0, 0);
 }
 #input-barra-de-pesquisa{
     height: 45px;
@@ -78,9 +84,9 @@ nav{
     width: 36px;
     height: 32px;
     background: none;
-    background-image: url('./Assets/Lupa.png');
     border: none;
     cursor: pointer;
+    margin-right: 10px;
 }
 .linha-horizontal{
     width: 100%;
@@ -128,6 +134,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 .container-evento{
     width: 100%;
@@ -135,6 +142,23 @@ main{
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    gap: auto;
+}
+.nome-evento{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.botoes-evento{
+    width: 20%;
+}
+.imagem-evento{
+    width: 25%;
+    border: solid 1px white;
+}
+.botoes-evento{
+    margin-left: 1rem;
 }
 .botao-evento{
     display: flex;
@@ -158,7 +182,7 @@ main{
     opacity: 0.8;
 }
 .botoes-evento a:nth-last-child(2){
-    margin-bottom: 14px;
+    margin-bottom: 0.7rem;
 }
 .logo-footer{
     font-size: 1em;

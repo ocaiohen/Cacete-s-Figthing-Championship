@@ -11,8 +11,8 @@ body{
     margin:0;
 }
 img {
-    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
 }
 ul{
     list-style-type: none;
@@ -20,10 +20,11 @@ ul{
 #header-menu{
     background-color: black;
     width: 100%;
+    max-width: 100%;
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     /* position: sticky;
     top: 0px; */
 }
@@ -34,25 +35,29 @@ a{
    
 } */
 nav{
-    width: 100%;
+    width: 20%;
+    max-width: 20%;
 }
-#secao-navegacao{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 #links-header{
-    font-size: 1em;
-    font-weight: 600;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#links-header>li>a{
+    font-size: 100%;
+    font-weight: 600;
+}
+header>h1{
+    text-align: center;
 }
 .logo-a{
-    font-size: 1.375em;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    max-width: 20%;
 }
 
 #barra-de-pesquisa{
@@ -62,6 +67,7 @@ nav{
     border: 5px solid #ffffff;
     border-radius: 20px;
     padding: 5px;
+    background-color: rgb(0, 0, 0);
 }
 #input-barra-de-pesquisa{
     height: 45px;
@@ -78,9 +84,18 @@ nav{
     width: 36px;
     height: 32px;
     background: none;
-    background-image: url('./Assets/Lupa.png');
     border: none;
     cursor: pointer;
+    margin-right: 10px;
+}
+#linha-metade{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: blue;
+    width: 4px;
+    height: 100vh;
+    z-index: 50;
 }
 main{
     background-color: black;
