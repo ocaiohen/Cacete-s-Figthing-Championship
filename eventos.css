@@ -108,7 +108,7 @@ header>h1{
 .titulo-secao {
     display: inline-block;
     position: relative;
-    font-size: 2em;
+    font-size: 2rem;
     background: #000; /* Cor de fundo que deve cobrir a linha horizontal */
     padding: 0 10px; /* Espaçamento ao redor do texto */
     z-index: 2;
